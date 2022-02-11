@@ -1,7 +1,3 @@
-ssh-keygen -t ed25519 -C "le.soder@gmail.com"
-cat /home/user/.ssh/id_ed25519.pub
-git init
-echo "# docker" >> README.md
 # Adiciona os novos arquivos e modificados para o proximo commit
 git add .
 # Registra o commint com todos os arquivos do gti add # -m "Adiciona uma mensagem"
