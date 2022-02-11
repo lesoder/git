@@ -1,5 +1,5 @@
 # Estados dos arquivos
-- não monnitorado (untracked)
+- não monitorado (untracked)
 - modificado (modified)
 - Preparado (staged)
 - Consolidado (commited)
@@ -37,13 +37,10 @@
    $ git log 
    $ git log --oneline --decorate
 
-# Lista os repositorios remotos 
-   $ git remote -v 
-
 # HEAD " Indica o direotiro " branch" de trabalho atual" 
-   $ git log
+   $  $ git log --oneline --decorate --all --graph
 commit 35b1e261067d00e843ef232f87ebcc1833649d9d (HEAD -> main, origin/main, origin/HEAD)
-   $ git log --oneline --decorate --all --graph
+  
 # git checkout
   - Utlizado para trocar de branch
     $ git checkout feature1 
@@ -86,6 +83,9 @@ commit 35b1e261067d00e843ef232f87ebcc1833649d9d (HEAD -> main, origin/main, orig
 # Git push 
   - é a acão de atualizar uma referẽncia remota a partir de uma referência local, enviando os objetos necessários para satisfazer as referências atualizadas. 
    $ git push -u origin main 
+   
+# Lista os repositorios remotos 
+   $ git remote -v    
    
 # Comando git diff
 
