@@ -1,38 +1,38 @@
 # Adiciona os novos arquivos e modificados para o proximo commit
-git add .
+   $ git add .
 # Registra o commint com todos os arquivos do gti add # -m "Adiciona uma mensagem"
-git commit -m "first commit"
+   $ git commit -m "first commit"
 
 # Status
-git status 
+   $ git status 
 # para alterar o editor padrão do git
-git config --global core.editor
+   $ git config --global core.editor
 
 # Conf de usuário e email 
-git config --global user.name "lesoder"
-git config --global user.email "le.soder@gmail.com"
-git config --global init.defaultBranch main
+   $ git config --global user.name "lesoder"
+   $ git config --global user.email "le.soder@gmail.com"
+   $ git config --global init.defaultBranch main
 
 
 # lista a conf 
-git config --list
-user.email=le.soder@gmail.com
-user.name=lesoder
-core.repositoryformatversion=0
-core.filemode=true
-core.bare=false
-core.logallrefupdates=true
-remote.origin.url=https://github.com/lesoder/azure.git
-remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
-branch.main.remote=origin
-branch.main.merge=refs/heads/main
+   $ git config --list
+      user.email=le.soder@gmail.com
+      user.name=lesoder
+      core.repositoryformatversion=0
+      core.filemode=true
+      core.bare=false
+      core.logallrefupdates=true
+      remote.origin.url=https://github.com/lesoder/azure.git
+      remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+      branch.main.remote=origin
+      branch.main.merge=refs/heads/main
 
 # mostra os ultimos logs 
-git log 
-git log --oneline --decorate
+   $ git log 
+   $ git log --oneline --decorate
 
 # Lista os repositorios remotos 
-git remote -v 
+   $ git remote -v 
 
 # HEAD " Indica o direotiro " branch" de trabalho atual" 
    $ git log
