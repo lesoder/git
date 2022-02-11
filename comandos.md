@@ -1,3 +1,9 @@
+# Estados dos arquivos
+- não monnitorado (untracked)
+- modificado (modified)
+- Preparado (staged)
+- Consolidado (commited)
+
 # Adiciona os novos arquivos e modificados para o proximo commit
    $ git add .
 # Registra o commint com todos os arquivos do gti add # -m "Adiciona uma mensagem"
@@ -79,28 +85,11 @@ commit 35b1e261067d00e843ef232f87ebcc1833649d9d (HEAD -> main, origin/main, orig
   
 # Git push 
   - é a acão de atualizar uma referẽncia remota a partir de uma referência local, enviando os objetos necessários para satisfazer as referências atualizadas. 
-ssh -T git@github.com
-git remote -v 
-git config --global user.email "le.soder@gmail.com"
-git config --global user.name "lesoder"
-git remote add origin git@github.com:lesoder/docker.git
-git remote -v 
-git push -u origin main
-git push -u origin main
-git push -u origin main
-git push origin master
-
-git remote rm origin
-git remote add origin git@github.com:lesoder/docker.git
-
-# Estados dos arquivos
-- não monnitorado (untracked)
-- modificado (modified)
-- Preparado (staged)
-- Consolidado (commited)
- 
+   $ git push -u origin main 
+   
 # Comando git diff
-- Exibir diferenças entre commits e branchs
+
+   - Exibir diferenças entre commits e branchs
  $git diff [path]
 - diferença no diretorio  "HEAD~1 ponteiro para o ultimo commit na branch
   $git diff HEAD~1 
