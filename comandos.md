@@ -92,7 +92,7 @@ commit 35b1e261067d00e843ef232f87ebcc1833649d9d (HEAD -> main, origin/main, orig
    - Exibir diferenças entre commits e branchs
  $git diff [path]
 - diferença no diretorio  "HEAD~1 ponteiro para o ultimo commit na branch
-  $git diff HEAD~1 
+- $git diff HEAD~1 
 - Mostra que foi alterado no ultimo commit 
 
 # git clone 
