@@ -15,9 +15,9 @@
    $ git config --global core.editor
 
 # Conf de usuário e email 
-   $ git config --global user.name "lesoder"
-   $ git config --global user.email "le.soder@gmail.com"
-   $ git config --global init.defaultBranch main
+$ git config --global user.name "lesoder"
+$ git config --global user.email "le.soder@gmail.com"
+$ git config --global init.defaultBranch main
 
 
 # lista a conf 
@@ -38,7 +38,7 @@
    $ git log --oneline --decorate
 
 # HEAD " Indica o direotiro " branch" de trabalho atual" 
-   $  $ git log --oneline --decorate --all --graph
+$ git log --oneline --decorate --all --graph
 commit 35b1e261067d00e843ef232f87ebcc1833649d9d (HEAD -> main, origin/main, origin/HEAD)
   
 # git checkout
