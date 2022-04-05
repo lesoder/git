@@ -12,12 +12,12 @@
 # Status
    $ git status 
 # para alterar o editor padrão do git
-   $ git config --global core.editor
+  $ git config --global core.editor
 
 # Conf de usuário e email 
-$ git config --global user.name "lesoder"
-$ git config --global user.email "le.soder@gmail.com"
-$ git config --global init.defaultBranch main
+  $ git config --global user.name "lesoder"
+  $ git config --global user.email "le.soder@gmail.com"
+  $ git config --global init.defaultBranch main
 
 
 # lista a conf 
@@ -34,8 +34,9 @@ $ git config --global init.defaultBranch main
       branch.main.merge=refs/heads/main
 
 # mostra os ultimos logs 
-   $ git log 
-   $ git log --oneline --decorate
+ $ git log
+
+ $ git log --oneline --decorate
 
 # HEAD " Indica o direotiro " branch" de trabalho atual" 
 $ git log --oneline --decorate --all --graph
@@ -43,7 +44,8 @@ commit 35b1e261067d00e843ef232f87ebcc1833649d9d (HEAD -> main, origin/main, orig
   
 # git checkout
   - Utlizado para trocar de branch
-    $ git checkout feature1 
+  $ git checkout feature1 
+  
   - Para validar 
     $ cat .git/HEAD
     ref: refs/heads/feature1 
@@ -90,16 +92,16 @@ commit 35b1e261067d00e843ef232f87ebcc1833649d9d (HEAD -> main, origin/main, orig
 # Comando git diff
 
    - Exibir diferenças entre commits e branchs
- $git diff [path]
-- diferença no diretorio  "HEAD~1 ponteiro para o ultimo commit na branch
-- $git diff HEAD~1 
-- Mostra que foi alterado no ultimo commit 
+      $git diff [path]
+   - diferença no diretorio  "HEAD~1 ponteiro para o ultimo commit na branch
+   - $git diff HEAD~1 
+   - Mostra que foi alterado no ultimo commit 
 
 # git clone 
-- baixa o repositorio remoto
-- Outra forma de criar um repositorio local
-- já vem com o remote configurado
- $git clone git@github.com:lesoder/docker.git
+  - baixa o repositorio remoto
+  - Outra forma de criar um repositorio local
+  - já vem com o remote configurado
+    $git clone git@github.com:lesoder/docker.git
 
 # git pull
 - baixa as alterações do repositorio remoto
