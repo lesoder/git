@@ -98,10 +98,10 @@ commit 35b1e261067d00e843ef232f87ebcc1833649d9d (HEAD -> main, origin/main, orig
    - Mostra que foi alterado no ultimo commit 
 
 # git clone 
-- baixa o repositorio remoto
-- Outra forma de criar um repositorio local
-- já vem com o remote configurado
- $git clone git@github.com:lesoder/docker.git
+  - baixa o repositorio remoto
+  - Outra forma de criar um repositorio local
+  - já vem com o remote configurado
+    $git clone git@github.com:lesoder/docker.git
 
 # git pull
 - baixa as alterações do repositorio remoto
